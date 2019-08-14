@@ -1,9 +1,10 @@
-def map(source_array)
-  source_array.length.times do |index|
-    source_array[index] = yield(source_array[index])
-  end
-  source_array
-end
+#def map(source_array)
+#  source_array.length.times do |index|
+#    source_array[index] = yield(source_array[index])
+#  end
+#  source_array
+#end
+
 
 
 def reduce(source_array, starting_point = nil)
